@@ -1,4 +1,8 @@
 // @author zyuzhi
+#pragma once
+#ifndef ZYUZHI_MATH_GCDLCM_HPP
+#define ZYUZHI_MATH_GCDLCM_HPP
+
 #include <cstdint>
 
 // zyuzhi
@@ -136,3 +140,5 @@ struct lcm
 }
 }
 }
+
+#endif

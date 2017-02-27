@@ -4,13 +4,9 @@
 #define ZYUZHI_MATH_GCDLCM_HPP
 
 #include <cstdint>
+#include <zyuzhi/math/macros.h>
 
-// zyuzhi
-namespace zyuzhi
-{
-// zyuzhi.math
-namespace math
-{
+MATH_NAMESPACE_BEGIN
 template <typename T>
 T gcd(T a, T b)
 {
@@ -138,7 +134,6 @@ struct lcm
     static const int value = value1 / gcd<value1, value2>::value * value2;
 };
 }
-}
-}
 
+MATH_NAMESPACE_END
 #endif

@@ -10,9 +10,11 @@
 #define ROOT_NAMESPACE_END }
 #endif
 #ifndef MATH_NAMESPACE_BEGIN
-#define MATH_NAMESPACE_BEGIN namespace math {
+#define MATH_NAMESPACE_BEGIN ROOT_NAMESPACE_BEGIN \
+    namespace math {
 #endif
 #ifndef MATH_NAMESPACE_END
-#define MATH_NAMESPACE_END }
+#define MATH_NAMESPACE_END ROOT_NAMESPACE_END \
+    }
 #endif
 #endif

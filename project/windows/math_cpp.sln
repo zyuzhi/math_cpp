@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gcd_lcm", "gcd_lcm\gcd_lcm.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "math_cpp", "math_cpp\math_cpp.vcxproj", "{A6A3A61C-9248-4A3A-B6D5-1F5924C45AC4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fibnaci", "fibnaci\fibnaci.vcxproj", "{9BCD74FE-1EA0-4FB7-AC57-A7EA931E42D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -25,6 +27,10 @@ Global
 		{A6A3A61C-9248-4A3A-B6D5-1F5924C45AC4}.Debug|Win32.Build.0 = Debug|Win32
 		{A6A3A61C-9248-4A3A-B6D5-1F5924C45AC4}.Release|Win32.ActiveCfg = Release|Win32
 		{A6A3A61C-9248-4A3A-B6D5-1F5924C45AC4}.Release|Win32.Build.0 = Release|Win32
+		{9BCD74FE-1EA0-4FB7-AC57-A7EA931E42D9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9BCD74FE-1EA0-4FB7-AC57-A7EA931E42D9}.Debug|Win32.Build.0 = Debug|Win32
+		{9BCD74FE-1EA0-4FB7-AC57-A7EA931E42D9}.Release|Win32.ActiveCfg = Release|Win32
+		{9BCD74FE-1EA0-4FB7-AC57-A7EA931E42D9}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -33,5 +39,6 @@ Global
 		{B34204FA-E41A-4278-8843-82860126AA0E} = {C65A16DD-D571-4FD9-A32D-3D4A84CB3469}
 		{A6A3A61C-9248-4A3A-B6D5-1F5924C45AC4} = {C65A16DD-D571-4FD9-A32D-3D4A84CB3469}
 		{482016F8-0CE5-4AFD-BC6E-A36B0CC68C4A} = {56CA83C4-8AED-4E0A-AA2F-9AE4868EBAA2}
+		{9BCD74FE-1EA0-4FB7-AC57-A7EA931E42D9} = {56CA83C4-8AED-4E0A-AA2F-9AE4868EBAA2}
 	EndGlobalSection
 EndGlobal

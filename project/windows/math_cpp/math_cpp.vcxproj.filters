@@ -27,5 +27,8 @@
     <ClInclude Include="..\..\..\include\zyuzhi\math\utility.hpp">
       <Filter>include\math</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\include\zyuzhi\math\fibnaci.hpp">
+      <Filter>include\math</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

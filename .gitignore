@@ -1,6 +1,7 @@
 ipch
 debug
 release
+build
 *~
 *.opensdf
 *.sdf
